@@ -1,0 +1,63 @@
+/* Declaring custom properties */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#header {
+  padding: 0.5em;
+  background-color: black;
+  color: white;
+}
+
+#logo-description{
+  text-align: right;
+  margin-right: 5em;
+}
+
+#logo-description li {
+  display: inline-block;
+  padding left: 0.5em;
+  padding-right: 0.5em;
+}
+
+#verde{
+  background-color: green;
+}
+
+#menu {
+  padding: 1em;
+  margin-right: 4em;
+  background-color: white;
+  color: black;
+}
+
+#logo-main{
+  display: inline-block;
+
+}
+#menu > ul {
+  margin: 0;
+  padding: 0;
+  float: right;
+  list-style-type: none;
+}
+
+#menu > ul > li {
+  display: inline-block;
+  padding left: 0.5em;
+  padding-right: 0.5em;
+}
+
+#search-bar {
+  float: right;
+  margin-left: 1em;
+  border-left: none !important;
+}
+
+#search-bar input {
+    border-radius: 0.5em;
+}
