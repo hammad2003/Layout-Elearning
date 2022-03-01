@@ -37,7 +37,6 @@ body {
 
 #logo-main{
   display: inline-block;
-
 }
 #menu > ul {
   margin: 0;
@@ -60,4 +59,44 @@ body {
 
 #search-bar input {
     border-radius: 0.5em;
+}
+
+#banner{
+  background-color: black;
+  color: green;
+  text-align: center;
+  padding: 5em;
+
+}
+
+#post{
+  color: white;
+  text-align: center;
+}
+
+#busqueda {
+  text-align: center;
+  border-left: none !important;
+  list-style-type: none;
+}
+
+#busqueda > ul {
+  text-align: center;
+  list-style-type: none;
+}
+
+#busqueda > ul > li {
+  display: inline-block;
+  text-align: center;
+
+}
+
+#escribir > input {
+  font-size: 1.25em;
+}
+
+#busca{
+  background-color: green;
+  color: white;
+  font-size: 1.25em;
 }
