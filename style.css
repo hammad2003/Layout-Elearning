@@ -72,6 +72,8 @@ body {
 #post{
   color: white;
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 #busqueda {
@@ -81,22 +83,27 @@ body {
 }
 
 #busqueda > ul {
-  text-align: center;
   list-style-type: none;
+  text-align: center;
 }
 
 #busqueda > ul > li {
   display: inline-block;
   text-align: center;
-
 }
 
 #escribir > input {
   font-size: 1.25em;
+  text-align: center;
+
 }
 
 #busca{
   background-color: green;
   color: white;
+  margin-left: -0.25em;
+  padding-top: 0.13em;
+  padding-bottom: 0.11em;
   font-size: 1.25em;
+  text-align: center;
 }
