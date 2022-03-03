@@ -9,7 +9,9 @@ body {
 
 #header {
   padding: 0.5em;
-  background-color: black;
+  background-image: url(FOTOS/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
 }
 
@@ -62,7 +64,6 @@ body {
 }
 
 #banner{
-  background-color: black;
   color: green;
   text-align: center;
   padding: 5em;
@@ -105,4 +106,61 @@ body {
   padding-bottom: 0.11em;
   font-size: 1.25em;
   text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+  background-color: black;
+  color: lightgrey;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+#verdee{
+  color: green;
+}
+
+#write > input{
+  margin-top: 1em;
+  width: 12em;
+}
+
+#footer h6 {
+  font-size: 1em;
+}
+
+#footer ul {
+  font-size: 0.8em;
+}
+
+.footer-columns{
+  margin-bottom: 2em;
+}
+
+.footer-column{
+  margin-right: 1em;
+}
+
+.footer-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-column ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
