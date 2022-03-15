@@ -254,9 +254,25 @@ body {
 
 
 #ola{
-  color: green;
   text-align: center;
+  color: white;
   padding: 5em;
+  background-image: url(FOTOS/hecho.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#ele{
+  color: green;
+}
+
+#buscaa{
+  background-color: green;
+  color: white;
+  text-align: center;
+  font-size: 1em;
+  padding: 0.1em;
 }
 
 
